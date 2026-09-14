@@ -2,7 +2,7 @@
 
 **Status:** production
 **Supersedes:** v1
-**Model:** Gemini 2.0 Flash (dev/free tier) — see docs/architecture.md
+**Model:** Gemini 3.6 Flash (dev/free tier) — see docs/architecture.md
 for production model tiering reasoning
 
 ## System prompt (v2)

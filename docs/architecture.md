@@ -134,4 +134,5 @@ real call data.
   domain knowledge, not validated against real sales-outcome data** —
   there is no conversion/close data available in this project to
   confirm these weights predict actual buying likelihood.
-- **IP-count thresholding does not catch all infrastructure/ISP domains** — e.g., large telecom providers' reverse-DNS ranges (vodafone-ip.de) can appear as individual low-IP-count domains despite representing shared carrier infrastructure, not a single business. A production system would cross-reference against a known-ISP/ASN registry rather than IP-count alone.
+- **IP-count thresholding does not catch all infrastructure/ISP domains** — e.g., large telecom         providers' reverse-DNS ranges (vodafone-ip.de) can appear as individual low-IP-count domains despite representing shared carrier infrastructure, not a single business. A production system would cross-reference against a known-ISP/ASN registry rather than IP-count alone.  
+- prompts/account_scoring_v1.md represents an earlier, simpler design that was superseded before extensive testing — v2 was the version actually run against the dataset. Both are included to demonstrate the versioning structure the brief asks for
